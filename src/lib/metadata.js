@@ -1,5 +1,3 @@
-import { Metadata } from "next"
-
 export function generatePageMetadata({
     title,
     description,

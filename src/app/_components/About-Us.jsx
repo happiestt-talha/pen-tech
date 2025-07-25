@@ -62,7 +62,7 @@ export default function AboutUs() {
                             {/* Primary Image */}
                             <div className="relative rounded-3xl overflow-hidden shadow-2xl group">
                                 <img
-                                    src="/team-a.webp"
+                                    src="/images/team-a.webp"
                                     alt="Our team collaborating in a modern workspace"
                                     className="w-full h-80 lg:h-96 object-cover transition-transform duration-700 group-hover:scale-105"
                                 />
@@ -77,7 +77,7 @@ export default function AboutUs() {
                             {/* Secondary Stacked Image */}
                             <div className="absolute -bottom-8 -right-8 w-48 h-32 lg:w-64 lg:h-40 rounded-2xl overflow-hidden shadow-xl border-4 border-white group hover:shadow-2xl transition-all duration-500">
                                 <img
-                                    src="/team-b.webp"   
+                                    src="/images/team-b.webp"   
                                     alt="Innovative technology solutions"
                                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                 />

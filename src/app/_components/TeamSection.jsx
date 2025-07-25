@@ -16,7 +16,7 @@ export default function TeamSection() {
             id: 1,
             name: "Kashif Liaqat",
             role: "Chief Executive Officer",
-            image: "/emp-a.webp",
+            image: "/staff/kashif-liaqat.webp",
             bio: "Visionary leader with 15+ years in tech innovation",
             social: {
                 linkedin: "#",
@@ -26,21 +26,9 @@ export default function TeamSection() {
         },
         {
             id: 2,
-            name: "Danial Kashif",
-            role: "Web Developer",
-            image: "/emp-a.webp",
-            bio: "Full-stack architect passionate about scalable solutions",
-            social: {
-                linkedin: "#",
-                twitter: "#",
-                email: "michael@company.com",
-            },
-        },
-        {
-            id: 4,
-            name: "Amna Shahzadi",
+            name: "Amna Shehzadi",
             role: "UI/UX & Graphic designer",
-            image: "/emp-a.webp",
+            image: "/staff/amna-shehzadi.webp",
             bio: "Creative director crafting beautiful user experiences",
             social: {
                 linkedin: "#",
@@ -52,19 +40,31 @@ export default function TeamSection() {
             id: 3,
             name: "M Talha",
             role: "Full-stack Developr",
-            image: "/emp-a.webp",
+            image: "/staff/m-talha.webp",
+            bio: "Full-stack architect passionate about scalable solutions",
+            social: {
+                linkedin: "https://www.linkedin.com/in/mt4lha/",
+                twitter: "https://twitter.com/MTalha215",
+                email: "mtalhamazoor1930@gmail.com",
+            },
+        },
+        {
+            id: 4,
+            name: "Danial Kashif",
+            role: "Web Developer",
+            image: "/staff/danial-kashif.webp",
             bio: "Full-stack architect passionate about scalable solutions",
             social: {
                 linkedin: "#",
                 twitter: "#",
-                email: "emily@company.com",
+                email: "michael@company.com",
             },
         },
         {
             id: 5,
             name: "Sarfaraz Baig",
             role: "Digital Marketing and SEO expert",
-            image: "/emp-a.webp",
+            image: "/staff/sarfaraz-baig.webp",
             bio: "Marketing expert ensuring seamless project delivery",
             social: {
                 linkedin: "#",
@@ -76,7 +76,7 @@ export default function TeamSection() {
             id: 6,
             name: "M Naeem",
             role: "Senior Web. developer",
-            image: "/emp-a.webp",
+            image: "/staff/m-naeem.webp",
             bio: "Senior Web developer with 15+ years of experience",
             social: {
                 linkedin: "#",
@@ -88,7 +88,7 @@ export default function TeamSection() {
             id: 7,
             name: "M Shehryar",
             role: "Senior App. develope",
-            image: "/emp-a.webp",
+            image: "/staff/m-shehryar.webp",
             bio: "Code enthusiast, passionate about building innovative apps",
             social: {
                 linkedin: "#",
@@ -227,18 +227,21 @@ export default function TeamSection() {
                                                 <a
                                                     href={member.social.linkedin}
                                                     className="w-10 h-10 bg-primary/10 hover:bg-primary rounded-xl flex items-center justify-center transition-all duration-300 group/social hover:scale-110"
+                                                    target="_blank"
                                                 >
                                                     <Linkedin className="w-4 h-4 text-primary group-hover/social:text-white transition-colors duration-300" />
                                                 </a>
                                                 <a
                                                     href={member.social.twitter}
                                                     className="w-10 h-10 bg-primary/10 hover:bg-secondary rounded-xl flex items-center justify-center transition-all duration-300 group/social hover:scale-110"
+                                                    target="_blank"
                                                 >
                                                     <Twitter className="w-4 h-4 text-primary group-hover/social:text-white transition-colors duration-300" />
                                                 </a>
                                                 <a
                                                     href={`mailto:${member.social.email}`}
                                                     className="w-10 h-10 bg-primary/10 hover:bg-secondary rounded-xl flex items-center justify-center transition-all duration-300 group/social hover:scale-110"
+                                                    target="_blank"
                                                 >
                                                     <Mail className="w-4 h-4 text-primary group-hover/social:text-white transition-colors duration-300" />
                                                 </a>

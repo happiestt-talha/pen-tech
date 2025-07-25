@@ -18,7 +18,7 @@ export default function ServiceCarousel() {
             description:
                 "Create stunning, responsive websites that captivate your audience and drive business growth with our cutting-edge development solutions.",
             ctaText: "Start Your Project",
-            backgroundImage: "/web-dev.webp",
+            backgroundImage: "/images/web-dev.webp",
         },
         {
             id: 2,
@@ -26,7 +26,7 @@ export default function ServiceCarousel() {
             description:
                 "Transform your ideas into powerful mobile applications that engage users across iOS and Android platforms with seamless performance.",
             ctaText: "Build Your App",
-            backgroundImage: "/app-development.webp",
+            backgroundImage: "/images/app-development.webp",
         },
         {
             id: 3,
@@ -34,7 +34,7 @@ export default function ServiceCarousel() {
             description:
                 "Leverage the power of cloud computing to scale your business operations, reduce costs, and enhance security with our expert solutions.",
             ctaText: "Go Cloud",
-            backgroundImage: "/cloud.webp",
+            backgroundImage: "/images/cloud.webp",
         },
         {
             id: 4,
@@ -42,7 +42,7 @@ export default function ServiceCarousel() {
             description:
                 "Revolutionize your business processes with comprehensive digital transformation strategies that drive efficiency and innovation.",
             ctaText: "Transform Now",
-            backgroundImage: "/digital.webp",
+            backgroundImage: "/images/digital.webp",
         },
         {
             id: 5,
@@ -50,7 +50,7 @@ export default function ServiceCarousel() {
             description:
                 "Protect your digital assets and ensure compliance with industry standards.",
             ctaText: "Transform Now",
-            backgroundImage: "/cybersecurity.webp",
+            backgroundImage: "/images/cybersecurity.webp",
         },
         {
             id: 6,
@@ -58,7 +58,7 @@ export default function ServiceCarousel() {
             description:
                 "Transform your data into actionable insights with advanced analytics and business intelligence solutions.",
             ctaText: "Transform Now",
-            backgroundImage: "/data-analytics.webp",
+            backgroundImage: "/images/data-analytics.webp",
         },
         {
             id: 7,
@@ -66,7 +66,7 @@ export default function ServiceCarousel() {
             description:
                 "24/7 technical support and maintenance services to ensure your systems run smoothly and efficiently.",
             ctaText: "Transform Now",
-            backgroundImage: "/technical-support.webp",
+            backgroundImage: "/images/technical-support.webp",
         },
     ]
 

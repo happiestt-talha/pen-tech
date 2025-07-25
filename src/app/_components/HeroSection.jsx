@@ -167,7 +167,7 @@ export default function HeroSection() {
                 {/* Main Content */}
                 <div className="max-w-6xl mx-auto text-center">
                     {/* Premium Badge */}
-                    <motion.div
+                    {/* <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
@@ -185,7 +185,7 @@ export default function HeroSection() {
                             transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
                         />
                         <span className="text-sm font-semibold tracking-wide uppercase">Premium IT Solutions</span>
-                    </motion.div>
+                    </motion.div> */}
 
                     {/* Hero Heading with Enhanced Animation */}
                     <motion.h1

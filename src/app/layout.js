@@ -38,14 +38,14 @@ export const metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://pen-tech-solution.com"),
+  metadataBase: new URL("https://pentechsolution.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
-    locale: "en_US",
-    url: "https://pen-tech-solution.com",
+    locale: "en",
+    url: "https://pentechsolution.com",
     title: "Pen-Tech Solutions | Leading IT Solutions & Web Development Agency",
     description:
       "Transform your business with innovative technology solutions. Expert web development, mobile apps, cloud services, and cybersecurity.",
@@ -97,8 +97,8 @@ export default function RootLayout({
 
         {/* Favicon and app icons */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
 
         {/* Theme color for mobile browsers */}
@@ -124,13 +124,13 @@ export default function RootLayout({
               name: "Pen-Tech Solutions",
               description:
                 "Leading IT solutions and web development agency specializing in innovative technology services.",
-              url: "https://pen-tech-solution.com",
-              logo: "https://pen-tech-solution.com/logo.png",
+              url: "https://pentechsolution.com",
+              logo: "https://pentechsolution.com/logo.png",
               contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "+92-321-8815888",
                 contactType: "customer service",
-                email: "info@pen-tech-solution.com",
+                email: "info@pentechsolution.com",
                 availableLanguage: "English",
               },
               address: {
